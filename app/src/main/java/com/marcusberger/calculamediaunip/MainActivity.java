@@ -21,7 +21,7 @@ public class MainActivity extends Activity {
             @Override
             public void onClick(View v) {
 
-                Intent i = new Intent(v.getContext(), MainActivity2.class);
+                Intent i = new Intent(v.getContext(), ActivityAddMateria.class);
                 startActivity(i);
             }
         });
