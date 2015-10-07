@@ -11,12 +11,12 @@ public class ActivityAddMateria extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         //Fazendo referencia a tela .xml
-        setContentView(R.layout.activity_add_materia);
+        setContentView(R.layout.activity_cadastra_disciplina);
     }
 
 
     public void onClickAddMateria(View view){
 
-        startActivityForResult(new Intent(this, MainActivity3.class), 1);
+        startActivityForResult(new Intent(this, CadastraDisciplina.class), 1);
     }
 }

@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.marcusberger.calculamediaunip.CadastraNota">
+
+    <EditText
+        android:id="@+id/nNp1"
+        android:inputType="numberSigned"
+        android:layout_width="150dp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota NP1"/>
+
+    <EditText
+        android:id="@+id/nNp2"
+        android:inputType="numberSigned"
+        android:layout_width="150dp"
+        android:singleLine="true"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota NP2"/>
+
+    <EditText
+        android:id="@+id/nExame"
+        android:inputType="numberSigned"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:hint="Nota Exame"/>
+
+    <Button
+        android:layout_width="150dp"
+        android:background="@drawable/screen_border"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Salvar nota"/>
+
+    /*Exemplo do texto, aprovado e reprovado*/
+
+    <TextView
+        android:id="@+id/txtaprovacao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:layout_gravity="center"
+        android:textColor="#000000"
+        android:textSize="32dp"
+        android:text="Aprovado\n Parabéns"/>
+
+</LinearLayout>
