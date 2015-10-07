@@ -3,20 +3,24 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
+    android:background="#ffffff"
     tools:context=".MainActivity" >
 
     <ListView
-        android:id="@+id/lbList"
+        android:id="@+id/lblist"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_weight="1">
-    </ListView>
-
+        android:divider="#FFECECEC"
+        android:dividerHeight="2sp"
+        android:layout_weight="1"
+        />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_weight="0"
-        android:text="ADICIONAR MATERIA"
+        android:text="Materia"
+        android:layout_gravity="center"
+        android:drawableLeft="@drawable/ic_add_black_24dp"
         android:onClick="onClickAddMateria"/>
 
 </LinearLayout>
