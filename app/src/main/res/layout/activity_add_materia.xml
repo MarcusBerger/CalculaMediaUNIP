@@ -15,12 +15,13 @@
         android:layout_weight="1"
         />
     <Button
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="230dp"
+        android:layout_height="50dp"
         android:layout_weight="0"
-        android:text="Materia"
+        android:text="Adicionar Disciplina"
+        android:textColor="#ffffff"
+        android:background="@drawable/screen_border"
         android:layout_gravity="center"
-        android:drawableLeft="@drawable/ic_add_black_24dp"
         android:onClick="onClickAddMateria"/>
 
 </LinearLayout>

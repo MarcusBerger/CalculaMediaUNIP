@@ -67,6 +67,8 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Confirmar"
+            android:textColor="#ffffff"
+            android:background="@drawable/screen_border"
             android:onClick="clickConfirmar"/>
 
         
@@ -75,6 +77,8 @@
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:text="Cancelar"
+            android:textColor="#ffffff"
+            android:background="@drawable/screen_border"
             android:onClick="clickCancelar"/>
 
     </LinearLayout>
