@@ -4,4 +4,5 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_activity_cadastra__nota">cadastra_Nota</string>
+    <string name="title_activity_tela_cadastro">TelaCadastro</string>
 </resources>

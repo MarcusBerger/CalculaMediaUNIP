@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffffff"
+    tools:context=".MainActivity" >
+
+    <ListView
+        android:id="@+id/viewList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="#FFECECEC"
+        android:dividerHeight="2sp"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="230dp"
+        android:layout_height="50dp"
+        android:layout_weight="0"
+        android:text="Adicionar Disciplina"
+        android:textColor="#ffffff"
+        android:background="@drawable/screen_border"
+        android:layout_gravity="center"
+        android:onClick="onClickAddMateria"/>
+
+</LinearLayout>
